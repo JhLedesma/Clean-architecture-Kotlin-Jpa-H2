@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories
 
 @SpringBootApplication
 @ComponentScan(basePackages = ["cleanarchitecture"])
-@EnableJpaRepositories("cleanarchitecture.repository")
+@EnableJpaRepositories("cleanarchitecture.infraestructure")
 @EntityScan("cleanarchitecture.infraestructure.repository")
 class SpringRun
 
