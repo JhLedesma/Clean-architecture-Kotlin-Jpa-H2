@@ -4,7 +4,7 @@ import cleanarchitecture.core.book.service.BookService
 import cleanarchitecture.core.film.service.FilmService
 import cleanarchitecture.core.person.model.Person
 import cleanarchitecture.core.person.model.PersonInput
-import cleanarchitecture.repository.PersonRepository
+import cleanarchitecture.core.person.port.PersonRepository
 
 class PersonService(
     private val bookService: BookService,

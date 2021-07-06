@@ -1,6 +1,6 @@
 package cleanarchitecture.core.book.service
 
-import cleanarchitecture.client.BookClient
+import cleanarchitecture.core.book.port.BookClient
 import cleanarchitecture.core.book.model.Book
 
 class BookService(private val bookClient: BookClient) {

@@ -1,4 +1,4 @@
-package cleanarchitecture.repository
+package cleanarchitecture.core.person.port
 
 import cleanarchitecture.core.person.model.Person
 

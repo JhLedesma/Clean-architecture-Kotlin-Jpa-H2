@@ -1,6 +1,6 @@
-package cleanarchitecture.client.impl
+package cleanarchitecture.infraestructure.gateway
 
-import cleanarchitecture.client.FilmClient
+import cleanarchitecture.core.film.port.FilmClient
 import cleanarchitecture.core.exception.ClientServerException
 import cleanarchitecture.core.film.model.FilmResponse
 import org.springframework.http.HttpEntity

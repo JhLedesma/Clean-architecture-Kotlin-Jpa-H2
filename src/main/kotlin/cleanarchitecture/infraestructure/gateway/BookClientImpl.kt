@@ -1,6 +1,6 @@
-package cleanarchitecture.client.impl
+package cleanarchitecture.infraestructure.gateway
 
-import cleanarchitecture.client.BookClient
+import cleanarchitecture.core.book.port.BookClient
 import cleanarchitecture.core.book.model.BookResponse
 import cleanarchitecture.core.exception.ClientServerException
 import org.springframework.web.client.RestTemplate

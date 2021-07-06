@@ -1,4 +1,4 @@
-package cleanarchitecture.client
+package cleanarchitecture.core.book.port
 
 import cleanarchitecture.core.book.model.BookResponse
 

@@ -1,4 +1,4 @@
-package cleanarchitecture.client
+package cleanarchitecture.core.film.port
 
 import cleanarchitecture.core.film.model.FilmResponse
 

@@ -1,9 +1,9 @@
-package cleanarchitecture.repository.adapter
+package cleanarchitecture.infraestructure.repository.adapter
 
 import cleanarchitecture.core.person.model.Person
-import cleanarchitecture.repository.PersonRepository
-import cleanarchitecture.repository.dao.PersonDao
-import cleanarchitecture.utils.ModelMapper
+import cleanarchitecture.core.person.port.PersonRepository
+import cleanarchitecture.infraestructure.repository.dao.PersonDao
+import cleanarchitecture.infraestructure.shared.ModelMapper
 import org.springframework.data.repository.findByIdOrNull
 
 class PersonAdapterRepository(private val personDao: PersonDao, private val modelMapper: ModelMapper): PersonRepository {

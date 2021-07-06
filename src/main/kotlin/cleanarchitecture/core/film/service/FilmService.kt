@@ -1,6 +1,6 @@
 package cleanarchitecture.core.film.service
 
-import cleanarchitecture.client.FilmClient
+import cleanarchitecture.core.film.port.FilmClient
 import cleanarchitecture.core.film.model.Film
 
 class FilmService(private val filmClient: FilmClient) {

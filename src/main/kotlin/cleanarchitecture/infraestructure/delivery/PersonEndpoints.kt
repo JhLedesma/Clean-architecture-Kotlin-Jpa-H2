@@ -1,4 +1,4 @@
-package cleanarchitecture.controller
+package cleanarchitecture.infraestructure.delivery
 
 import cleanarchitecture.core.person.model.Person
 import cleanarchitecture.core.person.model.PersonInput

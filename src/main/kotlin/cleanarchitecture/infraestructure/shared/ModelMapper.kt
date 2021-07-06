@@ -1,11 +1,11 @@
-package cleanarchitecture.utils
+package cleanarchitecture.infraestructure.shared
 
 import cleanarchitecture.core.book.model.Book
 import cleanarchitecture.core.film.model.Film
 import cleanarchitecture.core.person.model.Person
-import cleanarchitecture.repository.model.BookEntity
-import cleanarchitecture.repository.model.FilmEntity
-import cleanarchitecture.repository.model.PersonEntity
+import cleanarchitecture.infraestructure.repository.model.BookEntity
+import cleanarchitecture.infraestructure.repository.model.FilmEntity
+import cleanarchitecture.infraestructure.repository.model.PersonEntity
 
 class ModelMapper {
 

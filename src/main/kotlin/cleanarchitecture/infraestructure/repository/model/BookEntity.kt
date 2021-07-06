@@ -1,4 +1,4 @@
-package cleanarchitecture.repository.model
+package cleanarchitecture.infraestructure.repository.model
 
 import javax.persistence.*
 
