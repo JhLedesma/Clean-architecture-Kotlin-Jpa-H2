@@ -1,4 +1,4 @@
-package cleanarchitecture.infraestructure.gateway
+package cleanarchitecture.adapter.gateway
 
 import cleanarchitecture.core.film.port.FilmClient
 import cleanarchitecture.core.exception.ClientServerException

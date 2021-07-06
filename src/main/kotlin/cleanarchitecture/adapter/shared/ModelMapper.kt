@@ -1,4 +1,4 @@
-package cleanarchitecture.infraestructure.shared
+package cleanarchitecture.adapter.shared
 
 import cleanarchitecture.core.book.model.Book
 import cleanarchitecture.core.film.model.Film

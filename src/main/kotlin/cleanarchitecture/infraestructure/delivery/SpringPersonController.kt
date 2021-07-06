@@ -1,6 +1,6 @@
-package cleanarchitecture.infraestructure.delivery.impl
+package cleanarchitecture.infraestructure.delivery
 
-import cleanarchitecture.infraestructure.delivery.PersonEndpoints
+import cleanarchitecture.adapter.delivery.PersonEndpoints
 import cleanarchitecture.core.person.model.Person
 import cleanarchitecture.core.person.model.PersonInput
 import org.springframework.beans.factory.annotation.Autowired

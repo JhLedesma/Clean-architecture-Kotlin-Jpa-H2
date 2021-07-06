@@ -1,14 +1,14 @@
 package cleanarchitecture.infraestructure.app.config
 
-import cleanarchitecture.infraestructure.gateway.BookClientImpl
-import cleanarchitecture.infraestructure.gateway.FilmClientImpl
-import cleanarchitecture.infraestructure.delivery.PersonEndpoints
+import cleanarchitecture.adapter.gateway.BookClientImpl
+import cleanarchitecture.adapter.gateway.FilmClientImpl
+import cleanarchitecture.adapter.delivery.PersonEndpoints
 import cleanarchitecture.core.book.service.BookService
 import cleanarchitecture.core.film.service.FilmService
 import cleanarchitecture.core.person.service.PersonService
-import cleanarchitecture.infraestructure.repository.adapter.PersonAdapterRepository
+import cleanarchitecture.adapter.repository.PersonAdapterRepository
 import cleanarchitecture.infraestructure.repository.dao.PersonDao
-import cleanarchitecture.infraestructure.shared.ModelMapper
+import cleanarchitecture.adapter.shared.ModelMapper
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration

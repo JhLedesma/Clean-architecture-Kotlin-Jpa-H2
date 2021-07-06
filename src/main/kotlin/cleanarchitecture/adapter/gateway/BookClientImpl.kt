@@ -1,4 +1,4 @@
-package cleanarchitecture.infraestructure.gateway
+package cleanarchitecture.adapter.gateway
 
 import cleanarchitecture.core.book.port.BookClient
 import cleanarchitecture.core.book.model.BookResponse
